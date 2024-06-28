@@ -4,7 +4,7 @@ import 'package:auth_homework/pages/signup_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -23,10 +23,11 @@ class MyApp extends StatelessWidget {
           brightness: Brightness.light, // Optional: Specify brightness
         ),
       ),
-      home: LoginPage(),
+      home: HomePage(),
       routes: {
         '/signup': (context) => const SignupPage(),
         '/home': (context) => const HomePage(),
+        '/login': (context) => LoginPage(),
       }, // Added const for efficiency
     );
   }
