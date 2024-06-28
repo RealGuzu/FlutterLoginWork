@@ -1,5 +1,4 @@
 import 'package:auth_homework/components/my_button.dart';
-import 'package:auth_homework/components/my_number.dart';
 import 'package:auth_homework/components/my_textfield.dart';
 import 'package:auth_homework/pages/login_page.dart';
 import 'package:flutter/material.dart';
